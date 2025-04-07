@@ -4,6 +4,7 @@ import Chicken from './Chicken';
 import Greeter from './Greeter';
 import Die from './die';
 import ListPicker from './ListPicker';
+import ColorList from './ColorList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Die />
       <Die numSides={3}/>
       <ListPicker values={[1, 2, 3]}/>
+      <ColorList colors={["red", "yellow", "blue"]}/>
     </div>
   );
 }
