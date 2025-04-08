@@ -11,9 +11,10 @@ function ShoppingList({items}){
                     completed={i.completed} 
                 />
                 // 전달하는 프로퍼티와 이름이 일치하면
-                // 전개 연산자로 아래를 위와 같이 표현할 수 있음.
+                // 전개 연산자로 아래와 같이 표현할 수 있음.
                 //<ShoppingListItem  key={i.id} {...i} />
             ))}
+            
         </ul>
     );
 }
