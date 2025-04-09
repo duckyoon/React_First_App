@@ -9,7 +9,8 @@ import Slots from './Slots';
 import ShoppingList from './ShoppingList';
 import PropertyList from './PropertyList';
 import Clicker from './Clicker';
-import Counter from './Counter';
+// import Counter from './Counter';
+import Toggler from './Toggler';
 // const data = [
 //   {id: 1, item:"eggs", quantity: 12, completed: false},
 //   {id: 2, item:"milk", quantity: 5, completed: true},
@@ -29,7 +30,8 @@ import Counter from './Counter';
 function App() {
   return (
     <div>
-      <Counter />
+      <Toggler/>
+      {/* <Counter /> */}
       {/* <Clicker message="Hi!!!" buttonText="Please click me"/>
       <Clicker message="Please Stop Clicking me!" buttonText="Do not click me"/> */}
       {/* <PropertyList items={properties}/>       */}
